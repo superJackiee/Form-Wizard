@@ -1,0 +1,97 @@
+{
+  "name": "vue-step-wizard",
+  "description": "A simple vuejs step/form wizard plugin",
+  "version": "0.1.16",
+  "private": false,
+  "author": {
+    "name": "Tushar Gugnani",
+    "email": "tushar@5balloons.info"
+  },
+  "repository": "https://github.com/tushargugnani/vue-step-wizard",
+  "bugs": "https://github.com/tushargugnani/vue-step-wizard/issues",
+  "keywords": [
+    "vue form wizard",
+    "vue stepper",
+    "vue multi step form",
+    "step component vue",
+    "previous next tabs vue"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve --fix",
+    "build": "vue-cli-service build --fix",
+    "build-library": "vue-cli-service build --target lib --name vue-step-wizard ./src/install.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "./dist/vue-step-wizard.common.js",
+  "unpkg": "./dist/vue-step-wizard.common.min.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "core-js": "^3.8.2",
+    "mobile-device-detect": "^0.4.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "v-tooltip": "^2.1.2",
+    "vue": "^2.6.12",
+    "vue-cli": "^2.9.6",
+    "vue-country-region-select": "^2.0.14",
+    "vue-icon": "^2.1.2",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-languages-dropdown": "^1.0.20",
+    "vue-loader": "^15.9.6",
+    "vue-phone-number-input": "^1.1.10",
+    "vue-recaptcha": "^1.3.0",
+    "vue-recaptcha-v3": "^2.0.0",
+    "vue-select": "^3.11.2",
+    "vue-tel-input": "^4.4.2",
+    "vue-textarea-autosize": "^1.1.1",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.10",
+    "@vue/cli-plugin-eslint": "^4.5.10",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "^4.5.10",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.12",
+    "vue-textarea": "^1.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint "
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
